@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>Hangman Game</title>
+
+</head>
+
+<body onload="startUp()">
+    <h1>The Coffee Word Game</h1>
+
+    <h4>In the underscored spaces below is a word related to coffee.</h4>
+    <br>
+
+    <p>Rules: Select a letter and as they load, keeping that in mind. Your clicks will be counted as each letter is chosen.</p>
+    
+    <p>You have 8 clicks to select the right letters.</p>
+    
+    <p>Be sure to clear wrong letters from field before each try.</p>
+
+    <input id="letter" type="text">
+    <input type="button" value="letter" onClick="Letter()"/>
+    <p id="answer"></p>
+    <p id="counter"></p>
+    <p id="stat"></p>
+
+<script src="assets/javascript/script.js"></script>
+</body>
+</html>
